@@ -46,22 +46,22 @@ The app uses:
 ## Code Highlights  
 
 ### Getting Weather Data  
-```javascript 
+ 
 function getWeather(lat, lon) {
   let api = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${key}`;
   fetch(api)
     .then(response => response.json())
     .then(data => updateWeather(data));
 }
-```
+
 
 ### Displaying Weather  
-```javascript
+
 function displayWeather() {
   iconElement.innerHTML = `<img src="icons/${weather.iconId}.png"/>`;
   tempElement.innerHTML = `${weather.temperature.value}°<span>C</span>`;
 }
-```
+
 
 ### Temperature Toggle  
 Click the temperature to switch between Celsius and Fahrenheit.

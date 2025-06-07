@@ -1,5 +1,5 @@
 
-# Weather App 🌤️  
+# Weather App  
 A clean, responsive weather application that shows current conditions using your location or city search.
 
 # view

@@ -1,5 +1,12 @@
 
 # Weather App  
+Company: CODTECH IT SOLUTIONS
+Name: SOLASA GREESHMA DIVYA SREE
+Intern ID: CT04DN1334
+Domain: MERN Stack Web Development
+Duration: 4 weeks
+Mentor: NEELA SANTHOSH
+
 A clean, responsive weather application that shows current conditions using your location or city search.
 
 # view
